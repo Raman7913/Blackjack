@@ -1,0 +1,34 @@
+body {
+    margin: 0;
+    background: linear-gradient(
+        90deg,
+        rgb(0, 74, 0),
+        rgb(0, 124, 0),
+        rgb(0, 74, 0)
+    );
+    text-align: center;
+    font-size: 32px;
+    color: white;
+    font-family: monospace, sans-serif;
+}
+h1 {
+    color: goldenrod;
+}
+#message-el {
+    font-style: italic;
+}
+.btn {
+    color: green;
+    font-size: larger;
+    background-color: goldenrod;
+    border: none;
+    padding: 2px 3rem;
+    text-transform: uppercase;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.4s ease-in-out;
+}
+.btn:hover {
+    box-shadow: 0 0 20px 10px rgb(0, 67, 0);
+    color: rgb(0, 67, 0);
+}
